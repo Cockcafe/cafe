@@ -5,10 +5,33 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>STFU GUYS</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #0b0b0b;
+      color: #fff;
+      -webkit-font-smoothing: antialiased;
+    }
+    .smalltext {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 800;
+      font-size: 18px; /* fixed small size in pixels */
+      white-space: nowrap;
+      display: inline-block;
+      transform-origin: center;
+      animation: spin 12s linear infinite; /* slow rotation */
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+  </style>
 </head>
 <body>
   <div class="wrap">
-    <div class="rotating">I LOVE YOU CASHIER</div>
+    <div class="smalltext">I LOVE YOU CASHIER</div>
   </div>
 </body>
 </html>
